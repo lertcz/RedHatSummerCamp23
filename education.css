@@ -1,0 +1,85 @@
+body {
+    /* overflow: hidden; */
+}
+
+.arrow {
+    fill: #D9D9D9;
+    cursor: pointer;
+    height: 30px;
+    width:  30px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.day {
+    cursor: pointer;
+    height: 20px;
+    width:  20px;
+    border: 2px solid #D9D9D9;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.dayActive {
+    background: rgba(217, 217, 217, 1);
+}
+
+.subject {
+    background: rgba(217, 217, 217, 1);
+    max-width: 125px;
+    min-width: 125px;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.shrink {
+    height: 85vh;
+    width: 80%;
+    margin: auto;
+}
+
+.mainBody {
+    height: 68%;
+}
+
+.mainBodySub {
+    background: rgba(217, 217, 217, 1);
+    border-radius: 5px;
+}
+
+.mainBodySub > hr {
+    border-top: 1px solid black;
+    margin: 8px;
+}
+
+.bodyBG {
+    background: rgba(43, 43, 123, .6);
+    border-radius: 10px;
+}
+
+.tab {
+    background: rgba(217, 217, 217, 1);
+    margin: 10px;
+    height: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tab > svg {
+    width: 30%;
+}
+
+.tab > h3 {
+    width: 65%;
+}
+
+@media screen and (max-device-width: 640px){
+
+    .shrink {
+        width: 90%;
+    }
+
+    .mainBody {
+        height: auto;
+    }
+}

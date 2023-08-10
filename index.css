@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+
+    background-image: url("newBG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* navbar */
+.nav {
+    /* background-color: #716E6E; */
+    height: 50px;
+}
+
+a {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    text-decoration: none;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .15s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+    box-shadow: inset 100% 0 0 0 #54b3d6;
+    color: #498da6;
+    text-decoration: none;
+}
+
+.active {
+    color: white !important;
+}

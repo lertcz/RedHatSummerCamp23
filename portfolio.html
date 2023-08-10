@@ -1,11 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
     <title>Portfolio</title>
-</head>
-<body>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="script.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="portfolio.css">
+  </head>
+  <body onload="checkLoginStatus();">
+    <!-- nav bar -->
+
+    <div class="nav align-items-center w-100 justify-content-between">
+        <a class="m-4" href="index.html" onclick="">LOGOUT</a>
+        <div class="m-4">
+            <a href="education.html">EDUCATION</a>
+            <a class="active">STUDENT PORTFOLIO</a>
+        </div>
+    </div>
+
+    <!-- main body -->
+    <div class="shrink justify-content-center align-items-center">
+      <!-- intro -->
+      <div class="bodyBG mx-auto mt-5 d-flex align-items-center justify-content-start w-75">
+        <img class="m-3" src="avatar.webp" alt="icon" width="180" style="border-radius: 50%;">
+        <div>
+          <h1 style="color: white;">Krystof Komarek</h1>
+          <h3 style="color: white;">Class: V4C</h3>
+        </div>
+      </div>
+  
+      <!-- Body -->
+      <div class="mainBody bodyBG mt-5 row">
+        <!-- Tabs -->
+        <div class="col-sm-8 m-3">
+          <div class="row justify-content-start">
+            <div class="tab col-sm row align-items-center">
+              <h2 class="col text-center">Grades</h2>
+            </div>
+          </div>
+
+          <div class="row justify-content-start">
+            <div class="tab col-sm row align-items-center">
+              <h3 class="col text-center">Feedback</h3>
+            </div>
+            <div class="tab col-sm row align-items-center">
+              <h3 class="col text-center">Personal entry</h3>
+            </div>
+            <div class="tab col-sm row align-items-center">
+              <h3 class="col text-center">Skills</h3>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills -->
+        <div class="col-sm m-4 mainBodySub">
+          <h2 class="text-center mt-3">Skills:</h2>
+          <hr>
+          <div class="align-items-center">
+            <h4>English</h4>
+            <h5>- B2</h5>
+          </div>
+          <br>
+          <div class="align-items-center">
+            <h4>German</h4>
+            <h5>- A2</h5>
+          </div>
+          <br>
+          <h4>C#</h4>
+          <progress value="35" max="100"></progress>
+          <br>
+          <h4>Python</h4>
+          <progress value="90" max="100"></progress>
+          <br>
+          <h4>JavaScript</h4>
+          <progress value="80" max="100"></progress>
+          <hr>
+          <h5 class="text-center" style="cursor: pointer;">Show all skills</h5>
+        </div>
+      </div>
+    </div>
     
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
 </html>

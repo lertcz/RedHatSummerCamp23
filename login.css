@@ -1,16 +1,5 @@
-@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
-html, body {
-    height: 100%;
-
-    background-image: url("../Images/BG.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .square {
-    background-color: #D9D9D9;
-    opacity: 75%;
+    background: rgba(217, 217, 217, .75);
 
     /* border: black; */
     border-radius: 10px;
